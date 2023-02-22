@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+header img{
+    justify-content: calc((100%)/2 - 120rem);
+}
+
+h1 {
+    font-size: 40rem;
+    font-weight:lighter;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+#presentacion{
+    background: url(../Img/bg-seccion1.png);
+}
