@@ -23,16 +23,38 @@ h1 {
     font-weight:lighter;
 }
 
-.container a{
+.container .boton a{
     text-decoration: none;
     color: white;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.boton{
+    background: rgb(198, 42, 42);
+    border-color: transparent;
 }
 
 .container{
-    max-width: 120rem;
-    margin: 0 auto;
+    max-width: 100rem;
+    margin: 2rem auto;
+    
+}
+  
+#presentacion{
+    max-width: 100rem;
+    height: 55rem;
+    margin: auto;
+    background: url(../Img/bg-seccion1.png);
 }
 
-#presentacion{
-    background: url(../Img/bg-seccion1.png);
+.textos-oferta{
+    justify-content: center;
+    text-align: center;
+}
+
+#oferta .container{
+    max-width: 90rem;
+    margin: 2rem auto;
 }
