@@ -10,6 +10,7 @@ html {
 body {
     font-family: 'Varela Round', sans-serif;
 }
+
 img {
     max-width: 100%;
 }
@@ -19,9 +20,21 @@ header img{
 }
 
 h1 {
-    font-size: 40rem;
+    font-size:xx-large;
     font-weight:lighter;
 }
+
+h2{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.cabecera{
+    max-width: 100rem;
+    display: grid;
+}
+
+
 
 .container .boton a{
     text-decoration: none;
@@ -51,6 +64,7 @@ h1 {
     height: 55rem;
     margin: auto;
     background: url(../Img/bg-seccion1.png);
+    list-style: none;
 }
 
 .textos-oferta{
@@ -61,6 +75,7 @@ h1 {
 #oferta .container{
     max-width: 90rem;
     margin: 2rem auto;
+    list-style: none;
 }
 
 footer{
