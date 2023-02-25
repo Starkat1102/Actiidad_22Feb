@@ -32,16 +32,18 @@ h1 {
 }
 
 .boton{
+    max-width: 20rem;
     background: rgb(198, 42, 42);
     border-color: transparent;
-    padding: 1rem;
     margin: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .container{
+    justify-content: center;
     max-width: 100rem;
     margin: 2rem auto;
-    
 }
   
 #presentacion{
@@ -59,4 +61,18 @@ h1 {
 #oferta .container{
     max-width: 90rem;
     margin: 2rem auto;
+}
+
+footer{
+    background: #1f1f1f;
+    color: #ffffff;
+}
+
+@media (min-width: 720px) {
+    .dos_columnas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        text-align: center;
+    }
 }
