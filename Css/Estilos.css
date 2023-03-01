@@ -38,22 +38,21 @@ h2{
     text-transform: uppercase;
 }
 
-
+/*  
 .container{
     justify-content: center;
     max-width: 100rem;
-    margin: 2rem auto;
+    margin: auto;
 }
-
+*/
 #presentacion{
-    /* 
-    max-width: 100rem;*/
     display: flex;
     height: 55rem;
     width: 100%;
     margin: auto;
     background: url(../Img/bg-seccion1.png);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
 
