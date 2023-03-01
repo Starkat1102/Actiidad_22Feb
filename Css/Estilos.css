@@ -29,12 +29,6 @@ h2{
     font-weight: lighter;
 }
 
-.cabecera{
-    max-width: 100rem;
-    display: grid;
-}
-
-
 
 .container .boton a{
     text-decoration: none;
@@ -44,33 +38,61 @@ h2{
     text-transform: uppercase;
 }
 
-.boton{
-    max-width: 20rem;
-    background: rgb(198, 42, 42);
-    border-color: transparent;
-    margin: 5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
 .container{
     justify-content: center;
     max-width: 100rem;
     margin: 2rem auto;
 }
-  
+
 #presentacion{
-    max-width: 100rem;
+    /* 
+    max-width: 100rem;*/
+    display: flex;
     height: 55rem;
+    width: 100%;
     margin: auto;
     background: url(../Img/bg-seccion1.png);
-    list-style: none;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.textos-oferta{
-    justify-content: center;
-    text-align: center;
+.Texto_1{
+    position: absolute;
+    left: 20%;
+    top: 12rem;
 }
+
+.Texto_2{
+    position: absolute;
+    left: 20%;
+    top: 16rem;
+}
+
+.boton{
+    display: flex;
+    border-color: transparent;
+    margin: 5rem;
+    padding: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.boton_1{
+    position: absolute;
+    left: 20%;
+    top: 25rem;
+    background: rgb(198, 42, 42);
+}
+
+.boton_2{
+    position: absolute;
+    left: 50%;
+    top: 25rem;
+    background: rgb(198, 42, 42);
+}
+
+
 
 #oferta .container{
     max-width: 90rem;
@@ -83,11 +105,52 @@ footer{
     color: #ffffff;
 }
 
+.textos-oferta{
+    margin: 5rem;
+}
+
 @media (min-width: 720px) {
     .dos_columnas{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         justify-content: center;
         text-align: center;
+    }
+
+    .boton_1{
+        position: absolute;
+        left: 20%;
+        top: 25rem;
+        background: rgb(198, 42, 42);
+    }
+    
+    .boton_2{
+        position: absolute;
+        left: 35%;
+        top: 25rem;
+        background: rgb(198, 42, 42);
+    }
+}
+
+@media (min-width: 1440px){
+    .dos_columnas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        text-align: center;
+    }
+
+    .boton_1{
+        position: absolute;
+        left: 20%;
+        top: 25rem;
+        background: rgb(198, 42, 42);
+    }
+    
+    .boton_2{
+        position: absolute;
+        left: 28%;
+        top: 25rem;
+        background: rgb(198, 42, 42);
     }
 }
